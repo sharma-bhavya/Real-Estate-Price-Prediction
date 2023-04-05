@@ -1,5 +1,5 @@
 # Real-Estate-Price-Prediction
-This project aims to predict the prices of houses in a given area using a machine learning model. The dataset used in this project is sourced from https://www.kaggle.com/datasets/yasserh/housing-prices-dataset, and it includes information about various features of houses, such as the number of bedrooms, bathrooms, square footage, and more.
+This project aims to predict the prices of houses in a given area using a machine learning model. The dataset used in this project is sourced from https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data, and it includes information about various features of houses, such as the number of bedrooms, bathrooms, square footage, and more.
 
 ## Technologies Used
 - Python 3.x
@@ -9,7 +9,7 @@ This project aims to predict the prices of houses in a given area using a machin
 - Scikit-learn
 
 ## Data Cleaning
-The dataset used in this project is cleaned and preprocessed to remove missing values, outliers, and inconsistencies that may affect the accuracy of the machine learning model.
+The dataset used in this project was cleaned and preprocessed to remove missing values, outliers, and inconsistencies that may affect the accuracy of the machine learning model.
 ### Handling Missing Values
 The dataset contains missing values in some of the features, such as the number of bedrooms, bathrooms, and square footage. To handle these missing values, we used different techniques depending on the type of missingness. For example, the missing values in categorical variables with the mode or the most frequent category, and  imputation techniques such as mean, median, or regression imputation for numerical variables were used.
 ### Removing Outliers
