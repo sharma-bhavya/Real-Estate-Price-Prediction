@@ -14,7 +14,8 @@ The dataset used in this project was cleaned and preprocessed to remove missing 
 The dataset contains missing values in some of the features, such as the number of bedrooms, bathrooms, and square footage. To handle these missing values, we used different techniques depending on the type of missingness. For example, the missing values in categorical variables with the mode or the most frequent category, and  imputation techniques such as mean, median, or regression imputation for numerical variables were used.
 ### Removing Outliers
 Outliers are observations that are significantly different from the other observations in the dataset and can affect the performance of the machine learning model. In this project, different techniques were used to detect and remove outliers. Also, visualized the distribution of each feature using histograms and scatterplots to identify potential outliers.
-![alt text](https://github.com/sharma-bhavya/Real-Estate-Price-Prediction/blob/main/images/bhhp_graph.PNG)
+
+![](https://github.com/sharma-bhavya/Real-Estate-Price-Prediction/blob/main/images/bhhp_graph.PNG)
 
 ### Encoding Categorical Variables
 The dataset contains categorical variables, that needed to be encoded before feeding it into the machine learning model. One-hot encoding was used to transform these categorical variables into numerical features that the model can understand.
